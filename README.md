@@ -5,7 +5,7 @@
 [![Google Gemini](https://img.shields.io/badge/LLM-Gemini_Flash-4285F4.svg?logo=google)](https://aistudio.google.com/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-An autonomous multi-agent software engineering & documentation system where specialized agents collaborate: a **Lead Architect (Planner)**, a **Senior Developer (Worker)**, and a **Staff QA (Reviewer)** with a cyclic feedback edge and deterministic double-rejection escalation handling.
+![Walkthrough Demo](demo.gif)`n`nAn autonomous multi-agent software engineering & documentation system where specialized agents collaborate: a **Lead Architect (Planner)**, a **Senior Developer (Worker)**, and a **Staff QA (Reviewer)** with a cyclic feedback edge and deterministic double-rejection escalation handling.
 
 Built for the **AgenticX AI Labs - AI Agents & Automation Internship (Project Brief 2)**.
 
@@ -152,3 +152,4 @@ python test_workflow.py
 ### Run 2: Double-Rejection & Escalation Path
 * **Verified by**: `test_workflow.py::test_double_rejection_escalator_node` and `test_conditional_edge_routing`.
 * **Outcome**: When rejections reached 2, the conditional edge successfully routed away from the worker to the escalator node, producing a post-mortem without hanging.
+
